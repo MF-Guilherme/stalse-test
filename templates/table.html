@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Page</title>
+        <link rel="stylesheet" href="./static/table.css"> <!--incluindo o css para a tabela-->
+    </head>
+    <body>
+        <h1>Dados do dataframe:</h1>
+        {{ table_html|safe }}
+        <!--Exibindo a tabela em html com o Jinja2
+        Dessa forma eu consigo exibir uma tabela de forma mais prática e produtiva
+        e consigo estilizar normalmente com css.
+        É possível verificar a tabela html inspecionando a página no navegador -->
+    </body>
+</html>

@@ -1,0 +1,43 @@
+/* Centralizando o título */
+h1 {
+    text-align: center;
+}
+
+/* Tabela geral */
+.table {
+            width: 100%;
+            max-width: 600px;
+            border-collapse: collapse;
+            margin: auto;
+            font-size: 18px;
+            text-align: left;
+            table-layout: fixed;
+        }
+/* Borda da tabela */
+.table, .table th, .table td {
+    border: 1px solid #ddd;
+}
+/* Estilo das células de cabeçalho */
+.table th{
+    padding: 4px;
+    text-align: center;
+}
+
+/* Estilo das células dos dados */
+.table td {
+    padding: 4px;
+}
+
+/* Estilo de fundo listrado */
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/* Cor de fundo para o cabeçalho */
+.table th {
+    background-color: gray;
+    color: white;
+}
+/* Efeito de hover */
+.table tr:hover {
+    background-color: #ddd;
+}
